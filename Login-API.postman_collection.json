@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "Add-User",
+			"name": "register",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -20,7 +20,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:5000/users/addUser",
+					"raw": "http://127.0.0.1:5000/users/register",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -31,7 +31,7 @@
 					"port": "5000",
 					"path": [
 						"users",
-						"addUser"
+						"register"
 					]
 				}
 			},
